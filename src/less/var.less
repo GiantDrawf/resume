@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@containerwidth: 800px;
+@fh: 40px;
+
+@headercolor: #00A185;
+@dividecolor: #E6E4E4;
+@bodycolor: #E0E0E0;
+
+@captialsize: 40px;
+@sectiondivide: 15px;
+@margin-base: 5px;
+@padding-base: 20px;
+
+@font-family: "Microsoft Yahei";
+@font-size-base: 14px;
+@font-size-h1: @font-size-base * 5;
+@font-size-h2: @font-size-base * 2;
+@font-size-h3: @font-size-base * 1.5;
+@font-size-h4: @font-size-base * 1.35;
+@font-size-h5: @font-size-base * 1.15;
+@font-size-h6: @font-size-base;
+
+@line-height: 1.4;
+
+@screen-sm: 480px;
+@screen-md: 640px;
+@screen-lg: 1024px;
+
+.width(@w){
+	width: @w;
+	min-width: @w;
+}
+.auto{
+	margin: auto;
+}
+.size(@w, @h){
+	width: @w;
+	height: @h;
+}
+.fz(@size){
+	font-size: @size;
+}
+.icon(@name){
+	content: @name;
+	font-family: FontAwesome;
+}

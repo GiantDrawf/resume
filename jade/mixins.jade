@@ -1,0 +1,9 @@
+mixin captial(icon, cap)
+	h4.section-captail
+		i.fa.section-header(class="fa-" + icon)
+		span=cap
+
+mixin introduction(arr)
+	dl.introduction
+		each val in arr
+			dd !{val}

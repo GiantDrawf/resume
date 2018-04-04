@@ -1,0 +1,12 @@
+section
+	+captial("folder-o", "项目经历(Experience)")
+	each val in experience
+		div.section-main
+			div.section-title
+				if (val.href)
+					a.name-info(href="#{val.href}") #{val.name}
+				else
+					span.name-info #{val.name}
+				span.time-info #{val.time}
+				span.pos-info #{val.pos}
+				+introduction(val.des)

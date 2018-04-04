@@ -1,0 +1,16 @@
+mixin icon(name, url, span)
+	li 
+		i.fa(class="fa-" + name).fa-fw
+		if (url)
+			a(href=url)=url
+		else
+			span=span
+header.resume-header 
+	img.wechat(src="#{wechatimage}")
+	section.title
+		h1 #{name}
+		h2 #{pos}
+	section.concat-me
+		ul.concat-ways
+			each val in concat
+				+icon(val.icon, val.link, val.text)

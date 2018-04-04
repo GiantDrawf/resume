@@ -1,0 +1,44 @@
+.resume-header{
+	background: @headercolor;
+	.small-padding(@padding-base, 2, 0.5);
+	overflow: hidden;
+}
+.wechat{
+	.size(130px, 130px);
+	float: left;
+	margin-right: 2 * @margin-base;
+	.visible-lt-md;
+}
+.concat-ways{
+	list-style-type: none;
+	margin-left: -@margin-base;
+	float: left;
+	color: #fff;
+	.has-margin-top(15px);
+	.fz{
+		font-size: @font-size-h4;
+	}
+	li{
+		margin-bottom: 2px;
+	}
+	a{
+		.fz;
+		color: #fff;
+		text-decoration: none;
+		&:hover{
+			color: #316747;
+		}
+	}
+	span{
+		.fz;
+	}
+	.fa-fw{
+		font-size: @font-size-h3;
+		margin-right: 2px;
+	}
+}
+.title{
+	.not-float-lt-md(right);
+	color: #fff;
+	text-align: center;
+}

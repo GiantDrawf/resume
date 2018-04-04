@@ -1,0 +1,12 @@
+section
+	+captial("file-code-o", "实习经历(Internship)")
+	each val in work
+		div.section-main
+			div.section-title
+				if (val.href)
+					a.name-info(href="#{val.href}") #{val.name}
+				else
+					span.name-info #{val.name}
+				span.time-info #{val.time}
+				span.pos-info #{val.pos}
+				+introduction(val.des)

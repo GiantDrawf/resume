@@ -1,0 +1,139 @@
+{
+    "name": "朱剑",
+    "pos": "前端工程师",
+    "wechatimage": "images/wechat.png",
+    "concat": [
+        {
+            "icon": "phone",
+            "link": false,
+            "text": 18168531758
+        },
+        {
+            "icon": "envelope-o",
+            "link": false,
+            "text": "971790583@qq.com"
+        },
+        {
+            "icon": "github",
+            "link": "https://github.com/GiantDrawf"
+        },
+        {
+            "icon": "code",
+            "link": "https://giantdrawf.github.io/"
+        },
+        {
+            "icon": "rss",
+            "link": "http://blog.csdn.net/GiantDrawf"
+        }
+    ],
+    "education": [
+        {
+            "time": "2014~至今",
+            "school": "华北电力大学",
+            "major": "信息与计算科学",
+            "des": [
+                "CET-4，能流畅的阅读英文文档",
+                "2015~2016学年获得思想道德优秀奖学金，体育活动奖学金"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "time": "2017.11~2018.3",
+            "name": "凤凰网",
+            "href": "http://www.ifeng.com",
+            "pos": "前端实习生",
+            "des": [
+                "独立开发快闪短视频后台管理系统，独立开发前后端，技术栈为<code>React</code>、<code>Redux</code>、<code>mongoose</code>",
+                "参与凤凰网合同稿源管理后台项目的需求更新，主要技术栈为<code>mysql</code>",
+                "独立开发微信预警公众号平台，提供发送预警模板消息接口",
+                "独立开发快闪短视频内部标签审核后台，<code>koa</code>+<code>mongoose</code>编写后端数据接口",
+                "独立开发供内部使用的记录行为数据的谷歌插件"
+            ]
+        },
+        {
+            "time": "2017暑期",
+            "name": "迈拓港湾",
+            "pos": "就业实习",
+            "des": [
+                "对幼儿园校车安全问题提出了多种解决方案，通过在校车中安装监控，人脸识别技术判断是否有遗漏儿童，获得项目负责人的认同",
+                "《掌上校园》项目创始人之一，提出多数建设性决策，实现新生校园区实景导航，新生必购品商城，学科专业前景规划。"
+            ]
+        }
+    ],
+    "experience": [{
+            "time": "2016.3~2016.6",
+            "name": "LsgoGroup团队网站",
+            "href": "http://www.lsgogroup.com/",
+            "pos": "组内成员",
+            "des": [
+                "使用<code>Html</code>+<code>css</code>+<code>JavaScript</code>编写团队网站多个页面",
+                "熟悉多个前端框架并用以搭建网页，<code>BootStrap</code>,<code>jQuery</code>等",
+                "学习使用<code>ThinkPHP</code>部分知识实现前后端数据交互"
+            ]
+        },
+        {
+            "time": "2017.11~2017.12",
+            "name": "短视频审核管理后台",
+            "pos": "独立开发",
+            "des": [
+                "采用前后端分离设计，<code>express</code>+<code>mongoose</code>提供后端数据接口",
+                "前端使用<code>Redux</code>+<code>React</code>管理请求数据，UI采用了<code>ant-Design</code>"
+            ]
+        },
+        {
+            "time": "2017.9",
+            "name": "My-Reddit",
+            "href": "https://github.com/GiantDrawf/newReddit",
+            "pos": "独立开发",
+            "des": [
+                "仿照<code>Reddit</code>使用<code>AngularJs</code>+<code>Font Aweome</code>+<code>BootStrap</code>搭建新闻站点单页应用",
+                "实现过程中，了解了<code>AngularJs</code>的双向数据绑定，指令系统，可嵌入开发"
+            ]
+        },
+        {
+            "time": "2017.9",
+            "name": "贝格尔编排算法单页应用",
+            "href": "https://giantdrawf.github.io/BergerScheduling/views/index.html",
+            "pos": "独立开发",
+            "des": [
+                "研究贝格尔编排算法实现参赛队伍单循环赛的对阵编排",
+                "封装了贝格尔算法<code>BergerScheduling()</code>输出对阵矩阵，封装<code>DOM</code>输出方法，显示对阵表",
+                "使用<code>BootStrap</code>美化交互界面"
+            ]
+        },
+        {
+            "time": "2017.12",
+            "name": "微信公众号预警平台",
+            "pos": "独立开发",
+            "des": [
+                "微信公众平台开发，接入微信服务器，发送模板消息",
+                "<code>docker</code>多线程部署，获取<code>access_token</code>存储到跨进程的全局，使用mongoDB存储",
+                "完成用户关注公众号的邮箱绑定以及基本消息回复功能"
+            ]
+        },
+        {
+            "time": "2018.03",
+            "name": "行为数据记录谷歌插件",
+            "pos": "独立开发",
+            "des": [
+                "熟悉<code>Background</code>,<code>contentScript</code>,<code>PopUp</code>之间的通信，完成用户点击行为的信息记录",
+                "使用<code>ajax</code>向后端发送行为数据并保存"
+            ]
+        }
+    ],
+    "skills": [
+        "熟悉<code>javascript</code>，<code>html</code>，<code>css</code>",
+        "了解<code>react</code>，<code>redux</code>",
+        "熟悉<code>koa</code>，了解<code>express</code>",
+        "能应用<code>webpack</code>",
+        "熟悉<code>git</code>，<code>markdown</code>",
+        "了解<code>Ubuntu</code>、<code>centOs</code>等开发环境",
+        "了解<code>http</code>等相关知识",
+        "了解<code>c#</code>"
+    ],
+    "selfassessment": {
+        "des": "热爱前端开发，喜欢新技术并且享受踩坑后把每个坑填满的过程。在校期间担任过社团干部，对工作认真负责，组织活动受到领导的褒扬。为人热情开朗，乐于与朋友同事交往。可以吃苦耐劳，能够承受较大的工作压力。",
+        "tags": []
+    }
+}

@@ -1,0 +1,9 @@
+include mixins
+section
+	+captial("mortar-board", "教育背景(Education)")
+	each val in education
+		div.section-main
+			span.time-info #{val.time}
+			span.name-info #{val.school}
+			span.pos-info #{val.major}
+			+introduction(val.des)
